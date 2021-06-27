@@ -49,4 +49,21 @@ if (temperature < -40 || temperature > 40) {
    console.log("Leave your umbrella at home!");
  }
  
- 
+//  Elementary School if age is below 13
+//  Secondary School if age is between 13 and 18 (both inclusive)
+//  Lighthouse Labs in all other cases.
+
+if (age < 13) {
+   console.log("go to Elementary School");
+} else if(age >= 13 && age <= 18) {
+   console.log("go to Secondary School");
+}else{
+   console.log("go to Lighthouse Labs");
+}
+
+ // 12 factorial:
+ let result = 12;
+for (let i = result; i > 0; i--) {
+    result = result * (i - 1);
+    console.log(result);
+}
